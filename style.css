@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-image: url("dota2_social.jpg");
+  background-size: cover;
+  font-family: fantasy;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+}
+
+.search {
+  position: relative;
+  left: 150px;
+  width: 30%;
+  margin: auto;
+  height: 22px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.parentDiv {
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 10%;
+}
+
+.card {
+  width: 15%;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
